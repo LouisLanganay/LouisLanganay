@@ -20,17 +20,17 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 November 2022 - To: 02 April 2023
+From: 02 November 2022 - To: 04 April 2023
 
-Total Time: 390 hrs 20 mins
+Total Time: 404 hrs 44 mins
 
-C             304 hrs 39 mins ████████████████████▬▬▬▬▬   78.05 %
-Makefile      15 hrs 41 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.02 %
-JavaScript    15 hrs 10 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.89 %
-YAML          11 hrs 58 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.07 %
-Bash          9 hrs 12 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.36 %
-JSON          8 hrs 8 mins    █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.08 %
-Other         7 hrs 58 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.04 %
+C             316 hrs 33 mins ████████████████████▬▬▬▬▬   78.21 %
+Makefile      16 hrs 1 min    █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.96 %
+JavaScript    15 hrs 10 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.75 %
+YAML          12 hrs          █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.97 %
+JSON          9 hrs 57 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.46 %
+Bash          9 hrs 12 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.28 %
+Other         8 hrs           ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.98 %
 ```
 
 <!--END_SECTION:waka-->
