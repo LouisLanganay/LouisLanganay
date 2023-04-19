@@ -41,5 +41,5 @@ Other         8 hrs 30 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=LouisLanganay.LouisLanganay">
-  <img src=https://img.shields.io/badge/Wakatime%20Best%20Rank-227-blue">
+  <img src=https://img.shields.io/badge/Wakatime%20Best%20Rank-189-blue">
 </p>
