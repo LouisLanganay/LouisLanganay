@@ -23,16 +23,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 November 2022 - To: 20 May 2023
+From: 02 November 2022 - To: 21 May 2023
 
-Total Time: 577 hrs 24 mins
+Total Time: 578 hrs 13 mins
 
-C                422 hrs 44 mins ██████████████████▬▬▬▬▬▬▬   73.21 %
-JavaScript       32 hrs 55 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   05.70 %
-JSON             30 hrs 49 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   05.34 %
-Makefile         19 hrs 44 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.42 %
+C                422 hrs 44 mins ██████████████████▬▬▬▬▬▬▬   73.11 %
+JavaScript       33 hrs 14 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   05.75 %
+JSON             30 hrs 49 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   05.33 %
+Makefile         19 hrs 44 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.41 %
+YAML             16 hrs 20 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.83 %
 Bash             15 hrs 56 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.76 %
-YAML             15 hrs 54 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.75 %
 Other            12 hrs 8 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.10 %
 Git              7 hrs 59 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.38 %
 Text             6 hrs 25 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.11 %
