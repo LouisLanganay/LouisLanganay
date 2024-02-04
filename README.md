@@ -24,16 +24,16 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2022 - To: 27 January 2024
+From: 02 November 2022 - To: 02 February 2024
 
-Total Time: 1,179 hrs 3 mins
+Total Time: 1,179 hrs 35 mins
 
-C                 445 hrs 37 mins █████████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   37.79 %
-JavaScript        304 hrs 39 mins ██████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   25.84 %
-TypeScript        138 hrs 44 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   11.77 %
-JSON              58 hrs 26 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.96 %
-C++               57 hrs 32 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.88 %
-Makefile          24 hrs 59 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.12 %
+C                 445 hrs 37 mins █████████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   37.78 %
+JavaScript        304 hrs 39 mins ██████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   25.83 %
+TypeScript        138 hrs 44 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   11.76 %
+JSON              58 hrs 26 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.95 %
+C++               58 hrs 3 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.92 %
+Makefile          25 hrs          █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.12 %
 Bash              22 hrs 10 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.88 %
 YAML              20 hrs 19 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.72 %
 Haskell           20 hrs 16 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.72 %
