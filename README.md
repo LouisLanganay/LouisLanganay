@@ -25,13 +25,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2022 - To: 09 August 2024
+From: 02 November 2022 - To: 16 August 2024
 
-Total Time: 1,527 hrs 20 mins
+Total Time: 1,528 hrs 10 mins
 
-C                 489 hrs 9 mins  ████████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   32.03 %
-JavaScript        321 hrs 41 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   21.06 %
-TypeScript        227 hrs 42 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.91 %
+C                 489 hrs 9 mins  ████████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   32.01 %
+JavaScript        321 hrs 41 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   21.05 %
+TypeScript        228 hrs 27 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.95 %
 C++               183 hrs 1 min   ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   11.98 %
 JSON              62 hrs 50 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.11 %
 Makefile          36 hrs 25 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.38 %
