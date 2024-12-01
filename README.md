@@ -25,20 +25,20 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2022 - To: 22 November 2024
+From: 02 November 2022 - To: 30 November 2024
 
-Total Time: 1,803 hrs 19 mins
+Total Time: 1,829 hrs 36 mins
 
-C                 489 hrs 9 mins  ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   27.13 %
-TypeScript        369 hrs 9 mins  █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   20.47 %
-JavaScript        327 hrs 11 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   18.14 %
-C++               246 hrs 33 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   13.67 %
-JSON              72 hrs 10 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.00 %
-Makefile          37 hrs 3 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.06 %
-Markdown          30 hrs 16 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.68 %
-Bash              28 hrs 47 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.60 %
-Other             25 hrs 37 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.42 %
-YAML              24 hrs 4 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.34 %
+C                 489 hrs 9 mins  ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   26.74 %
+TypeScript        384 hrs 51 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   21.04 %
+JavaScript        327 hrs 16 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   17.89 %
+C++               246 hrs 33 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   13.48 %
+JSON              73 hrs 11 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.00 %
+Makefile          37 hrs 3 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.03 %
+Markdown          30 hrs 16 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.66 %
+Bash              30 hrs 11 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.65 %
+Other             25 hrs 43 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.41 %
+YAML              25 hrs          ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.37 %
 ```
 
 <!--END_SECTION:waka-->
