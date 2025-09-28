@@ -25,16 +25,16 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2022 - To: 19 September 2025
+From: 02 November 2022 - To: 27 September 2025
 
-Total Time: 2,340 hrs 52 mins
+Total Time: 2,342 hrs 31 mins
 
-TypeScript        641 hrs 14 mins ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   27.39 %
-C                 489 hrs 9 mins  █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   20.90 %
-JavaScript        345 hrs 24 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.76 %
+TypeScript        642 hrs 48 mins ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   27.44 %
+C                 489 hrs 9 mins  █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   20.88 %
+JavaScript        345 hrs 24 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.75 %
 C++               246 hrs 33 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   10.53 %
 Python            105 hrs 21 mins █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.50 %
-JSON              91 hrs 13 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.90 %
+JSON              91 hrs 13 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.89 %
 HTML              76 hrs 20 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.26 %
 PHP               41 hrs 59 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.79 %
 Markdown          37 hrs 28 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.60 %
