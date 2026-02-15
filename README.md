@@ -25,17 +25,17 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2022 - To: 07 February 2026
+From: 02 November 2022 - To: 13 February 2026
 
-Total Time: 2,421 hrs 2 mins
+Total Time: 2,422 hrs 56 mins
 
-TypeScript        703 hrs 43 mins ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   29.07 %
-C                 489 hrs 14 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   20.21 %
-JavaScript        347 hrs 26 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.35 %
-C++               246 hrs 52 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   10.20 %
-Python            109 hrs 5 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.51 %
-JSON              93 hrs 38 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.87 %
-HTML              76 hrs 59 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.18 %
+TypeScript        704 hrs 53 mins ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   29.09 %
+C                 489 hrs 14 mins █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   20.19 %
+JavaScript        347 hrs 26 mins ████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   14.34 %
+C++               246 hrs 52 mins ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   10.19 %
+Python            109 hrs 5 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.50 %
+JSON              93 hrs 40 mins  █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.87 %
+HTML              77 hrs 5 mins   █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.18 %
 PHP               42 hrs 18 mins  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.75 %
 YAML              38 hrs 6 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.57 %
 Markdown          38 hrs 5 mins   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.57 %
