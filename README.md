@@ -59,4 +59,22 @@
 ### Temps de code
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 02 November 2022 - To: 17 May 2026
+
+Total Time: 2,519 hrs 26 mins
+
+TypeScript        755 hrs 58 mins       ████████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   30.01 %
+C                 489 hrs 14 mins       █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   19.42 %
+JavaScript        348 hrs 13 mins       ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   13.82 %
+C++               246 hrs 52 mins       ██▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   09.80 %
+Python            115 hrs 5 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.57 %
+JSON              96 hrs 4 mins         █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.81 %
+HTML              77 hrs 27 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.07 %
+Markdown          50 hrs 33 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.01 %
+Other             45 hrs 1 min          ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.79 %
+PHP               42 hrs 18 mins        ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.68 %
+```
+
 <!--END_SECTION:waka-->
