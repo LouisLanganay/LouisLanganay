@@ -14,7 +14,7 @@
 <path d="M249.0,278.0 L249.0,257.4 Q249.0,253.4 253.0,253.4 L273.0,253.4 Q277.0,253.4 277.0,257.4 L277.0,278.0 Z" fill="#1f9d6b" fill-opacity="0.45"><title>oct. 26 : 11,4 M</title></path>
 <text x="263.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">oct.</text>
 <text x="322.0" y="132.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#14161a" font-weight="600">Entrée</text>
-<text x="322.0" y="152.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470">410 k sur la période</text>
+<text x="322.0" y="152.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470">411 k sur la période</text>
 <line x1="322" x2="580" y1="278" y2="278" stroke="#dfe2e7" stroke-width="1"/>
 <path d="M351.0,278.0 L351.0,272.6 Q351.0,268.6 355.0,268.6 L375.0,268.6 Q379.0,268.6 379.0,272.6 L379.0,278.0 Z" fill="#1f9d6b"><title>août 26 : 34,9 k</title></path>
 <text x="365.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">août 26</text>
@@ -31,7 +31,7 @@
 <path d="M711.0,278.0 L711.0,190.7 Q711.0,186.7 715.0,186.7 L735.0,186.7 Q739.0,186.7 739.0,190.7 L739.0,278.0 Z" fill="#1f9d6b"><title>sept. 26 : 12,7 Md</title></path>
 <text x="725.0" y="178.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#14161a" text-anchor="middle">12,7 Md</text>
 <text x="725.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">sept.</text>
-<path d="M797.0,278.0 L797.0,254.0 Q797.0,250.0 801.0,250.0 L821.0,250.0 Q825.0,250.0 825.0,254.0 L825.0,278.0 Z" fill="#1f9d6b" fill-opacity="0.45"><title>oct. 26 : 3,90 Md</title></path>
+<path d="M797.0,278.0 L797.0,253.9 Q797.0,249.9 801.0,249.9 L821.0,249.9 Q825.0,249.9 825.0,253.9 L825.0,278.0 Z" fill="#1f9d6b" fill-opacity="0.45"><title>oct. 26 : 3,90 Md</title></path>
 <text x="811.0" y="298.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">oct.</text>
 <text x="870.0" y="132.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#14161a" font-weight="600">Écriture de cache</text>
 <text x="870.0" y="152.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470">338 M sur la période</text>
