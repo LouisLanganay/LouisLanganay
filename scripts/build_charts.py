@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Génère les graphiques SVG du profil GitHub (versions claire et sombre).
+"""Génère les graphiques SVG du profil GitHub (versions claire et sombre)
+et stats.json à la racine du dépôt.
 
-Données lues en direct sur l'API GitHub, sauf le bloc WakaTime, figé au
-03/10/2026. Python standard, sans dépendance.
+Données lues en direct sur l'API GitHub. Python standard, sans dépendance.
 
     GITHUB_TOKEN=... python3 scripts/build_charts.py
 
@@ -43,14 +43,11 @@ THEMES = {
 MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin",
           "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 
-# Historique WakaTime, chiffres figés (le compte n'est plus suivi).
-WAKATIME = {
-    "total": "2 549 h 44 min",
-    "from": "02/11/2022",
-    "to": "03/10/2026",
-    "langs": [("TypeScript", 29.8), ("C", 19.2), ("JavaScript", 13.7),
-              ("C++", 9.7), ("Python", 4.7)],
-}
+# Dépôts mis en avant dans le README (tous publics).
+FEATURED = ["drop", "claude-gmail-channel", "commit-ai-generator", "AREA",
+            "Zombie-Quarter-Rampage-my_rpg", "Raytracer"]
+
+SCHEMA_VERSION = 1
 
 NNBSP = " "
 
@@ -97,23 +94,47 @@ def graphql(query, variables):
     return out["data"]
 
 
-CONTRIB_QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      totalCommitContributions
-      restrictedContributionsCount
-      contributionCalendar {
-        totalContributions
-        weeks { contributionDays { date contributionCount } }
-      }
-    }
-  }
-}
-"""
+def month_starts(today, n=12):
+    """Premiers jours des n derniers mois COMPLETS (le mois en cours exclu)."""
+    first = dt.date(today.year, today.month, 1)
+    out = []
+    for _ in range(n):
+        first = (first - dt.timedelta(days=1)).replace(day=1)
+        out.append(first)
+    return out[::-1]
 
 
-def collect(today):
+def next_month(d):
+    return (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+
+
+def contributions(starts):
+    """Total et part privée par mois : un contributionsCollection par mois.
+
+    restrictedContributionsCount est le compte agrégé des contributions
+    privées que GitHub affiche déjà sur le profil ; aucun nom de dépôt.
+    """
+    parts = []
+    for i, s in enumerate(starts):
+        end = next_month(s) - dt.timedelta(days=1)
+        parts.append(
+            f'm{i}: contributionsCollection(from: "{s.isoformat()}T00:00:00Z", '
+            f'to: "{end.isoformat()}T23:59:59Z") '
+            "{ restrictedContributionsCount contributionCalendar { totalContributions } }")
+    query = "query($login: String!) { user(login: $login) { %s } }" % " ".join(parts)
+    data = graphql(query, {"login": LOGIN})["user"]
+    months = []
+    for i, s in enumerate(starts):
+        m = data[f"m{i}"]
+        total = m["contributionCalendar"]["totalContributions"]
+        private = m["restrictedContributionsCount"]
+        months.append({"year": s.year, "month": s.month, "total": total,
+                       "private": private, "public": total - private})
+    return months
+
+
+def collect(now):
+    today = now.date()
     user = rest(f"/users/{LOGIN}")
     # /users/{login}/repos ne renvoie que les dépôts publics, quel que soit
     # le jeton : même périmètre en local et en CI.
@@ -125,43 +146,28 @@ def collect(today):
         for lang, size in rest(f"/repos/{LOGIN}/{repo['name']}/languages").items():
             languages[lang] = languages.get(lang, 0) + size
 
-    # 12 mois glissants : les 11 mois pleins précédents + le mois en cours.
-    first = dt.date(today.year, today.month, 1)
-    for _ in range(11):
-        first = (first - dt.timedelta(days=1)).replace(day=1)
-    data = graphql(CONTRIB_QUERY, {
-        "login": LOGIN,
-        "from": f"{first.isoformat()}T00:00:00Z",
-        "to": f"{today.isoformat()}T23:59:59Z",
-    })["user"]["contributionsCollection"]
-
-    months = []
-    cursor = first
-    while cursor <= today:
-        months.append((cursor.year, cursor.month))
-        cursor = (cursor.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
-    per_month = {m: 0 for m in months}
-    for week in data["contributionCalendar"]["weeks"]:
-        for day in week["contributionDays"]:
-            d = dt.date.fromisoformat(day["date"])
-            if (d.year, d.month) in per_month and d <= today:
-                per_month[(d.year, d.month)] += day["contributionCount"]
+    months = contributions(month_starts(today))
 
     created = dt.date.fromisoformat(user["created_at"][:10])
     years = today.year - created.year - (
         (today.month, today.day) < (created.month, created.day))
 
+    by_name = {r["name"]: r for r in repos}
+    featured = [by_name[n] for n in FEATURED if n in by_name]
+
     return {
-        "today": today,
+        "now": now,
+        "user": user,
         "public_repos": user["public_repos"],
         "stars": sum(r["stargazers_count"] for r in repos),
         "repo_count": len(repos),
         "created": created,
         "years": years,
         "languages": languages,
-        "months": [(y, m, per_month[(y, m)]) for y, m in months],
-        "total": data["contributionCalendar"]["totalContributions"],
-        "private": data["restrictedContributionsCount"],
+        "months": months,
+        "total": sum(m["total"] for m in months),
+        "private": sum(m["private"] for m in months),
+        "featured": featured,
     }
 
 
@@ -255,20 +261,20 @@ def chart_activity(d, t):
     W, H = 1200, 400
     left, right, top, base = 104, 1152, 132, 330
     months = d["months"]
-    peak = max(c for _, _, c in months)
+    peak = max(m["total"] for m in months)
     ymax, step = nice_ceiling(peak)
     plot_h = base - top
     band = (right - left) / len(months)
     bw = 44
-    today = d["today"]
+    generated = d["now"].date()
 
     body = [
         text(48, 62, "Contributions GitHub", size=24, weight="700", fill=t["text"]),
-        text(48, 90, f"12 derniers mois, dont {fr_int(d['private'])} dans des dépôts privés",
+        text(48, 90, f"12 derniers mois complets, dont {fr_int(d['private'])} dans des dépôts privés",
              size=15, fill=t["muted"]),
         text(1152, 66, fr_int(d["total"]), size=40, weight="700", fill=t["text"],
              anchor="end", spacing="-1"),
-        text(1152, 90, f"AU {today.strftime('%d/%m/%Y')}", size=12, family=MONO,
+        text(1152, 90, f"GÉNÉRÉ LE {generated.strftime('%d/%m/%Y')}", size=12, family=MONO,
              fill=t["muted"], anchor="end", spacing="1"),
     ]
     tick = 0
@@ -281,54 +287,52 @@ def chart_activity(d, t):
                          fill=t["muted"], anchor="end"))
         tick += step
 
-    peak_i = max(range(len(months)), key=lambda i: months[i][2])
-    for i, (y_, m, count) in enumerate(months):
+    peak_i = max(range(len(months)), key=lambda i: months[i]["total"])
+    last = len(months) - 1
+    for i, mo in enumerate(months):
+        y_, m, count = mo["year"], mo["month"], mo["total"]
         cx = left + band * i + band / 2
         h = plot_h * count / ymax
-        current = i == len(months) - 1
         name = f"{MONTHS[m - 1]} {y_}"
         if h > 0:
-            op = ' fill-opacity="0.45"' if current else ""
-            body.append(f'<path d="{bar_path(cx - bw / 2, base - h, bw, h)}" fill="{t["mark"]}"{op}>'
-                        f"<title>{escape(name)} : {fr_int(count)} contributions"
-                        f"{' (mois en cours)' if current else ''}</title></path>")
-        if i == peak_i or current:
+            body.append(f'<path d="{bar_path(cx - bw / 2, base - h, bw, h)}" fill="{t["mark"]}">'
+                        f"<title>{escape(name)} : {fr_int(count)} contributions "
+                        f"({fr_int(mo['public'])} publiques, {fr_int(mo['private'])} privées)"
+                        "</title></path>")
+        if i in (peak_i, last):
             body.append(text(cx, base - h - 10, fr_int(count), size=13, family=MONO,
                              fill=t["text"], anchor="middle"))
         label = MONTHS[m - 1] + (f" {str(y_)[2:]}" if m == 1 or i == 0 else "")
         body.append(text(cx, base + 24, label, size=13, family=MONO,
                          fill=t["muted"], anchor="middle"))
-        if current:
-            body.append(text(cx, base + 42, "en cours", size=11, family=MONO,
-                             fill=t["muted"], anchor="middle"))
 
-    first = months[0]
-    label = (f"Contributions GitHub par mois, de {MONTHS[first[1] - 1]} {first[0]} "
-             f"à {MONTHS[today.month - 1]} {today.year} : " +
-             ", ".join(f"{MONTHS[m - 1]} {y_} {c}" for y_, m, c in months) +
+    first, end_ = months[0], months[-1]
+    label = (f"Contributions GitHub par mois, de {MONTHS[first['month'] - 1]} {first['year']} "
+             f"à {MONTHS[end_['month'] - 1]} {end_['year']} : " +
+             ", ".join(f"{MONTHS[mo['month'] - 1]} {mo['year']} {mo['total']}" for mo in months) +
              f". Total {d['total']}.")
     return svg(W, H, label, body, t["bg"])
 
 
 def bars_panel(title, subtitle, rows, domain, t, label):
     """Barres horizontales classées, une teinte, étiquettes directes."""
-    W = 600
-    top, row_h, bh = 132, 38, 16
+    W = 1200
+    top, row_h, bh = 128, 36, 16
     H = top + row_h * len(rows) + 52
-    x0, x1 = 158, 486
+    x0, x1 = 200, 1040
     body = [
-        text(36, 58, title, size=25, weight="700", fill=t["text"]),
-        text(36, 88, subtitle, size=16, fill=t["muted"]),
+        text(48, 62, title, size=24, weight="700", fill=t["text"]),
+        text(48, 90, subtitle, size=15, fill=t["muted"]),
     ]
     for i, (name, pct, is_other) in enumerate(rows):
         y = top + row_h * i
         w = (x1 - x0) * pct / domain
-        body.append(text(x0 - 16, y + 14, name, size=17, fill=t["muted"] if is_other else t["text"],
+        body.append(text(x0 - 16, y + 13, name, size=16, fill=t["muted"] if is_other else t["text"],
                          anchor="end"))
         color = t["other"] if is_other else t["mark"]
         body.append(f'<path d="{bar_path(x0, y, max(w, 2), bh, side="right")}" fill="{color}">'
                     f"<title>{escape(name)} : {fr_pct(pct)}</title></path>")
-        body.append(text(x0 + w + 10, y + 14, fr_pct(pct), size=15, family=MONO, fill=t["text"]))
+        body.append(text(x0 + w + 10, y + 13, fr_pct(pct), size=14, family=MONO, fill=t["text"]))
     body.append(f'<line x1="{x0}" x2="{x0}" y1="{top - 8}" y2="{top + row_h * len(rows) - 12}" '
                 f'stroke="{t["grid"]}" stroke-width="1"/>')
     return W, H, body
@@ -344,77 +348,93 @@ def language_rows(languages, top_n=6):
     return rows
 
 
-def wakatime_rows():
-    rows = [(n, p, False) for n, p in WAKATIME["langs"]]
-    rows.append(("Autres", round(100 - sum(p for _, p in WAKATIME["langs"]), 1), True))
-    return rows
-
-
-def charts_languages(d, t, domain):
+def chart_languages(d, t):
     rows = language_rows(d["languages"])
+    domain = math.ceil(max(p for _, p, _ in rows) / 10) * 10
     W, H, body = bars_panel(
         "Langages",
         f"Part en octets, {d['repo_count']} dépôts publics non forkés",
         rows, domain, t, "")
-    body.append(text(36, H - 28, "MIS À JOUR CHAQUE JOUR PAR GITHUB ACTIONS",
+    body.append(text(48, H - 28, "MIS À JOUR CHAQUE MOIS PAR GITHUB ACTIONS",
                      size=12, family=MONO, fill=t["muted"], spacing="1"))
     label = "Langages des dépôts publics, part en octets : " + ", ".join(
         f"{n} {fr_pct(p)}" for n, p, _ in rows)
-    return W, H, body, label
-
-
-def charts_wakatime(t, domain, height):
-    rows = wakatime_rows()
-    W, H, body = bars_panel(
-        "Temps de code, WakaTime",
-        f"{WAKATIME['total']} du {WAKATIME['from']} au {WAKATIME['to']}",
-        rows, domain, t, "")
-    body.append(text(36, height - 28, f"HISTORIQUE FIGÉ AU {WAKATIME['to']}, NON MIS À JOUR",
-                     size=12, family=MONO, fill=t["muted"], spacing="1"))
-    label = (f"Historique WakaTime figé au {WAKATIME['to']} : {WAKATIME['total']} de code, " +
-             ", ".join(f"{n} {fr_pct(p)}" for n, p, _ in rows))
-    return W, height, body, label
+    return svg(W, H, label, body, t["bg"])
 
 
 # ---------------------------------------------------------------- main ----
 
-def write(name, content):
-    path = ASSETS / name
+def write(path, content):
     if path.exists() and path.read_text() == content:
         return False
     path.write_text(content)
     return True
 
 
+def stats_json(d):
+    """Schéma public et stable (schema_version) servi par raw.githubusercontent.com."""
+    user = d["user"]
+    months = d["months"]
+    last_day = next_month(dt.date(months[-1]["year"], months[-1]["month"], 1)) - dt.timedelta(days=1)
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": d["now"].strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "profile": {
+            "login": user["login"],
+            "name": user["name"],
+            "url": user["html_url"],
+            "created_at": user["created_at"],
+            "years_on_github": d["years"],
+        },
+        "totals": {
+            "public_repos": d["public_repos"],
+            "original_public_repos": d["repo_count"],
+            "stars": d["stars"],
+            "contributions_last_12_months": d["total"],
+        },
+        "contributions": {
+            "from": f"{months[0]['year']}-{months[0]['month']:02d}-01",
+            "to": last_day.isoformat(),
+            "total": d["total"],
+            "public": d["total"] - d["private"],
+            "private": d["private"],
+            "months": [{"month": f"{m['year']}-{m['month']:02d}", "total": m["total"],
+                        "public": m["public"], "private": m["private"]} for m in months],
+        },
+        "languages": {
+            "basis": "bytes in original public repositories",
+            "items": [{"name": "Other" if other else n, "percent": round(p, 1)}
+                      for n, p, other in language_rows(d["languages"])],
+        },
+        "featured_repos": [{
+            "name": r["name"],
+            "description": r["description"],
+            "url": r["html_url"],
+            "stars": r["stargazers_count"],
+            "language": r["language"],
+        } for r in d["featured"]],
+    }
+
+
 def main():
-    today = dt.datetime.now(dt.timezone.utc).date()
-    d = collect(today)
-    lang_rows = language_rows(d["languages"])
-    peak = max([p for _, p, _ in lang_rows] + [p for _, p, _ in wakatime_rows()])
-    domain = math.ceil(peak / 10) * 10  # même échelle pour les deux panneaux
+    now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
+    d = collect(now)
 
     changed = []
     for mode, t in THEMES.items():
-        lw, lh, lbody, llabel = charts_languages(d, t, domain)
-        ww, wh, wbody, wlabel = charts_wakatime(t, domain, lh)
-        lh = max(lh, wh)
         outputs = {
             f"stats-{mode}.svg": chart_stats(d, t),
             f"activity-{mode}.svg": chart_activity(d, t),
-            f"languages-{mode}.svg": svg(lw, lh, llabel, lbody, t["bg"]),
-            f"wakatime-{mode}.svg": svg(ww, lh, wlabel, wbody, t["bg"]),
+            f"languages-{mode}.svg": chart_languages(d, t),
         }
         for name, content in outputs.items():
-            if write(name, content):
+            if write(ASSETS / name, content):
                 changed.append(name)
 
-    print(json.dumps({
-        "public_repos": d["public_repos"], "stars": d["stars"],
-        "total_12m": d["total"], "private": d["private"], "years": d["years"],
-        "months": d["months"],
-        "languages": [(n, round(p, 1)) for n, p, _ in lang_rows],
-        "changed": changed,
-    }, ensure_ascii=False, indent=1))
+    payload = json.dumps(stats_json(d), ensure_ascii=False, indent=2) + "\n"
+    if write(ROOT / "stats.json", payload):
+        changed.append("stats.json")
+    print("changed:", ", ".join(changed) or "none")
 
 
 if __name__ == "__main__":

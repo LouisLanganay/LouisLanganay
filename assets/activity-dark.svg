@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Contributions GitHub par mois, de nov. 2025 à oct. 2026 : nov. 2025 20, déc. 2025 123, janv. 2026 56, févr. 2026 25, mars 2026 208, avr. 2026 418, mai 2026 273, juin 2026 109, juil. 2026 705, août 2026 790, sept. 2026 1223, oct. 2026 95. Total 4045.">
-<title>Contributions GitHub par mois, de nov. 2025 à oct. 2026 : nov. 2025 20, déc. 2025 123, janv. 2026 56, févr. 2026 25, mars 2026 208, avr. 2026 418, mai 2026 273, juin 2026 109, juil. 2026 705, août 2026 790, sept. 2026 1223, oct. 2026 95. Total 4045.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Contributions GitHub par mois, de oct. 2025 à sept. 2026 : oct. 2025 135, nov. 2025 20, déc. 2025 123, janv. 2026 56, févr. 2026 25, mars 2026 208, avr. 2026 418, mai 2026 273, juin 2026 109, juil. 2026 705, août 2026 790, sept. 2026 1223. Total 4085.">
+<title>Contributions GitHub par mois, de oct. 2025 à sept. 2026 : oct. 2025 135, nov. 2025 20, déc. 2025 123, janv. 2026 56, févr. 2026 25, mars 2026 208, avr. 2026 418, mai 2026 273, juin 2026 109, juil. 2026 705, août 2026 790, sept. 2026 1223. Total 4085.</title>
 <rect width="1200" height="400" rx="18" fill="#0f1115"/>
 <text x="48.0" y="62.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" fill="#f2f3f5" font-weight="700">Contributions GitHub</text>
-<text x="48.0" y="90.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#9aa1ad">12 derniers mois, dont 3 967 dans des dépôts privés</text>
-<text x="1152.0" y="66.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" fill="#f2f3f5" font-weight="700" text-anchor="end" letter-spacing="-1">4 045</text>
-<text x="1152.0" y="90.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" text-anchor="end" letter-spacing="1">AU 08/10/2026</text>
+<text x="48.0" y="90.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#9aa1ad">12 derniers mois complets, dont 4 021 dans des dépôts privés</text>
+<text x="1152.0" y="66.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" fill="#f2f3f5" font-weight="700" text-anchor="end" letter-spacing="-1">4 085</text>
+<text x="1152.0" y="90.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" text-anchor="end" letter-spacing="1">GÉNÉRÉ LE 08/10/2026</text>
 <line x1="96" x2="1152" y1="330.0" y2="330.0" stroke="#262a31" stroke-width="1"/>
 <text x="88.0" y="334.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" text-anchor="end">0</text>
 <line x1="96" x2="1152" y1="264.0" y2="264.0" stroke="#262a31" stroke-width="1" stroke-dasharray="2 6"/>
@@ -13,31 +13,29 @@
 <text x="88.0" y="202.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" text-anchor="end">1 000</text>
 <line x1="96" x2="1152" y1="132.0" y2="132.0" stroke="#262a31" stroke-width="1" stroke-dasharray="2 6"/>
 <text x="88.0" y="136.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" text-anchor="end">1 500</text>
-<path d="M125.7,330.0 L125.7,328.7 Q125.7,327.4 127.0,327.4 L168.3,327.4 Q169.7,327.4 169.7,328.7 L169.7,330.0 Z" fill="#2fa877"><title>nov. 2025 : 20 contributions</title></path>
-<text x="147.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">nov. 25</text>
-<path d="M213.0,330.0 L213.0,317.8 Q213.0,313.8 217.0,313.8 L253.0,313.8 Q257.0,313.8 257.0,317.8 L257.0,330.0 Z" fill="#2fa877"><title>déc. 2025 : 123 contributions</title></path>
-<text x="235.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">déc.</text>
-<path d="M300.3,330.0 L300.3,326.3 Q300.3,322.6 304.0,322.6 L340.6,322.6 Q344.3,322.6 344.3,326.3 L344.3,330.0 Z" fill="#2fa877"><title>janv. 2026 : 56 contributions</title></path>
-<text x="322.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">janv. 26</text>
-<path d="M387.7,330.0 L387.7,328.3 Q387.7,326.7 389.3,326.7 L430.0,326.7 Q431.7,326.7 431.7,328.3 L431.7,330.0 Z" fill="#2fa877"><title>févr. 2026 : 25 contributions</title></path>
-<text x="409.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">févr.</text>
-<path d="M475.0,330.0 L475.0,306.5 Q475.0,302.5 479.0,302.5 L515.0,302.5 Q519.0,302.5 519.0,306.5 L519.0,330.0 Z" fill="#2fa877"><title>mars 2026 : 208 contributions</title></path>
-<text x="497.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">mars</text>
-<path d="M562.3,330.0 L562.3,278.8 Q562.3,274.8 566.3,274.8 L602.3,274.8 Q606.3,274.8 606.3,278.8 L606.3,330.0 Z" fill="#2fa877"><title>avr. 2026 : 418 contributions</title></path>
-<text x="584.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">avr.</text>
-<path d="M649.7,330.0 L649.7,298.0 Q649.7,294.0 653.7,294.0 L689.7,294.0 Q693.7,294.0 693.7,298.0 L693.7,330.0 Z" fill="#2fa877"><title>mai 2026 : 273 contributions</title></path>
-<text x="671.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">mai</text>
-<path d="M737.0,330.0 L737.0,319.6 Q737.0,315.6 741.0,315.6 L777.0,315.6 Q781.0,315.6 781.0,319.6 L781.0,330.0 Z" fill="#2fa877"><title>juin 2026 : 109 contributions</title></path>
-<text x="759.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">juin</text>
-<path d="M824.3,330.0 L824.3,240.9 Q824.3,236.9 828.3,236.9 L864.3,236.9 Q868.3,236.9 868.3,240.9 L868.3,330.0 Z" fill="#2fa877"><title>juil. 2026 : 705 contributions</title></path>
-<text x="846.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">juil.</text>
-<path d="M911.7,330.0 L911.7,229.7 Q911.7,225.7 915.7,225.7 L951.7,225.7 Q955.7,225.7 955.7,229.7 L955.7,330.0 Z" fill="#2fa877"><title>août 2026 : 790 contributions</title></path>
-<text x="933.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">août</text>
-<path d="M999.0,330.0 L999.0,172.6 Q999.0,168.6 1003.0,168.6 L1039.0,168.6 Q1043.0,168.6 1043.0,172.6 L1043.0,330.0 Z" fill="#2fa877"><title>sept. 2026 : 1 223 contributions</title></path>
-<text x="1021.0" y="158.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f2f3f5" text-anchor="middle">1 223</text>
-<text x="1021.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">sept.</text>
-<path d="M1086.3,330.0 L1086.3,321.5 Q1086.3,317.5 1090.3,317.5 L1126.3,317.5 Q1130.3,317.5 1130.3,321.5 L1130.3,330.0 Z" fill="#2fa877" fill-opacity="0.45"><title>oct. 2026 : 95 contributions (mois en cours)</title></path>
-<text x="1108.3" y="307.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f2f3f5" text-anchor="middle">95</text>
-<text x="1108.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">oct.</text>
-<text x="1108.3" y="372.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#9aa1ad" text-anchor="middle">en cours</text>
+<path d="M125.7,330.0 L125.7,316.2 Q125.7,312.2 129.7,312.2 L165.7,312.2 Q169.7,312.2 169.7,316.2 L169.7,330.0 Z" fill="#2fa877"><title>oct. 2025 : 135 contributions (13 publiques, 122 privées)</title></path>
+<text x="147.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">oct. 25</text>
+<path d="M213.0,330.0 L213.0,328.7 Q213.0,327.4 214.3,327.4 L255.7,327.4 Q257.0,327.4 257.0,328.7 L257.0,330.0 Z" fill="#2fa877"><title>nov. 2025 : 20 contributions (0 publiques, 20 privées)</title></path>
+<text x="235.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">nov.</text>
+<path d="M300.3,330.0 L300.3,317.8 Q300.3,313.8 304.3,313.8 L340.3,313.8 Q344.3,313.8 344.3,317.8 L344.3,330.0 Z" fill="#2fa877"><title>déc. 2025 : 123 contributions (1 publiques, 122 privées)</title></path>
+<text x="322.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">déc.</text>
+<path d="M387.7,330.0 L387.7,326.3 Q387.7,322.6 391.4,322.6 L428.0,322.6 Q431.7,322.6 431.7,326.3 L431.7,330.0 Z" fill="#2fa877"><title>janv. 2026 : 56 contributions (0 publiques, 56 privées)</title></path>
+<text x="409.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">janv. 26</text>
+<path d="M475.0,330.0 L475.0,328.3 Q475.0,326.7 476.6,326.7 L517.4,326.7 Q519.0,326.7 519.0,328.3 L519.0,330.0 Z" fill="#2fa877"><title>févr. 2026 : 25 contributions (0 publiques, 25 privées)</title></path>
+<text x="497.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">févr.</text>
+<path d="M562.3,330.0 L562.3,306.5 Q562.3,302.5 566.3,302.5 L602.3,302.5 Q606.3,302.5 606.3,306.5 L606.3,330.0 Z" fill="#2fa877"><title>mars 2026 : 208 contributions (3 publiques, 205 privées)</title></path>
+<text x="584.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">mars</text>
+<path d="M649.7,330.0 L649.7,278.8 Q649.7,274.8 653.7,274.8 L689.7,274.8 Q693.7,274.8 693.7,278.8 L693.7,330.0 Z" fill="#2fa877"><title>avr. 2026 : 418 contributions (0 publiques, 418 privées)</title></path>
+<text x="671.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">avr.</text>
+<path d="M737.0,330.0 L737.0,298.0 Q737.0,294.0 741.0,294.0 L777.0,294.0 Q781.0,294.0 781.0,298.0 L781.0,330.0 Z" fill="#2fa877"><title>mai 2026 : 273 contributions (1 publiques, 272 privées)</title></path>
+<text x="759.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">mai</text>
+<path d="M824.3,330.0 L824.3,319.6 Q824.3,315.6 828.3,315.6 L864.3,315.6 Q868.3,315.6 868.3,319.6 L868.3,330.0 Z" fill="#2fa877"><title>juin 2026 : 109 contributions (28 publiques, 81 privées)</title></path>
+<text x="846.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">juin</text>
+<path d="M911.7,330.0 L911.7,240.9 Q911.7,236.9 915.7,236.9 L951.7,236.9 Q955.7,236.9 955.7,240.9 L955.7,330.0 Z" fill="#2fa877"><title>juil. 2026 : 705 contributions (11 publiques, 694 privées)</title></path>
+<text x="933.7" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">juil.</text>
+<path d="M999.0,330.0 L999.0,229.7 Q999.0,225.7 1003.0,225.7 L1039.0,225.7 Q1043.0,225.7 1043.0,229.7 L1043.0,330.0 Z" fill="#2fa877"><title>août 2026 : 790 contributions (2 publiques, 788 privées)</title></path>
+<text x="1021.0" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">août</text>
+<path d="M1086.3,330.0 L1086.3,172.6 Q1086.3,168.6 1090.3,168.6 L1126.3,168.6 Q1130.3,168.6 1130.3,172.6 L1130.3,330.0 Z" fill="#2fa877"><title>sept. 2026 : 1 223 contributions (5 publiques, 1 218 privées)</title></path>
+<text x="1108.3" y="158.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f2f3f5" text-anchor="middle">1 223</text>
+<text x="1108.3" y="354.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#9aa1ad" text-anchor="middle">sept.</text>
 </svg>

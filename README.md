@@ -36,12 +36,18 @@ Il est né de mon propre assistant, qui tourne chaque nuit sur le projet Fynex. 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img alt="Langages des dépôts publics, part en octets" src="assets/languages-light.svg" width="49%">
+  <img alt="Langages des dépôts publics, part en octets" src="assets/languages-light.svg" width="100%">
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg">
-  <img alt="Historique WakaTime figé au 03/10/2026" src="assets/wakatime-light.svg" width="49%">
-</picture>
+
+#### Mes stats en JSON
+
+Les mêmes chiffres, régénérés chaque mois, sont servis en JSON (CORS ouvert) :
+
+```sh
+curl -s https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/stats.json
+```
+
+Schéma `schema_version: 1` : `generated_at` (ISO 8601, UTC), `profile`, `totals` (dépôts publics, étoiles, contributions sur 12 mois), `contributions` (12 derniers mois complets, total public et privé par mois), `languages` (part en octets des dépôts publics non forkés), `featured_repos` (nom, description, étoiles, langage). Les contributions privées ne sont que les comptes agrégés déjà visibles sur le profil, aucun dépôt privé n'est nommé.
 
 ### Projets
 

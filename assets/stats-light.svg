@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Chiffres clés : 22 dépôts publics, 40 étoiles cumulées, 4 045 contributions sur 12 mois, 4 ans sur github">
-<title>Chiffres clés : 22 dépôts publics, 40 étoiles cumulées, 4 045 contributions sur 12 mois, 4 ans sur github</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Chiffres clés : 22 dépôts publics, 40 étoiles cumulées, 4 085 contributions sur 12 mois, 4 ans sur github">
+<title>Chiffres clés : 22 dépôts publics, 40 étoiles cumulées, 4 085 contributions sur 12 mois, 4 ans sur github</title>
 <rect width="1200" height="150" rx="18" fill="#f6f7f9"/>
 <text x="48.0" y="84.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#14161a" font-weight="700" letter-spacing="-1">22</text>
 <text x="50.0" y="112.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" letter-spacing="1">DÉPÔTS PUBLICS</text>
@@ -7,7 +7,7 @@
 <text x="348.0" y="84.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#14161a" font-weight="700" letter-spacing="-1">40</text>
 <text x="350.0" y="112.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" letter-spacing="1">ÉTOILES CUMULÉES</text>
 <line x1="600.0" x2="600.0" y1="36" y2="114" stroke="#dfe2e7" stroke-width="1"/>
-<text x="648.0" y="84.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#14161a" font-weight="700" letter-spacing="-1">4 045</text>
+<text x="648.0" y="84.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#14161a" font-weight="700" letter-spacing="-1">4 085</text>
 <text x="650.0" y="112.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" letter-spacing="1">CONTRIBUTIONS SUR 12 MOIS</text>
 <line x1="900.0" x2="900.0" y1="36" y2="114" stroke="#dfe2e7" stroke-width="1"/>
 <text x="948.0" y="84.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#14161a" font-weight="700" letter-spacing="-1">4</text>
