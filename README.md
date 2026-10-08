@@ -1,80 +1,31 @@
-<h1 align="center">Louis Langanay</h1>
-
-<p align="center">
-  Tek5 · <a href="https://epitech.eu">Epitech</a> · Co-fondateur de <a href="https://fynexapp.com">Fynex</a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Louis Langanay, développeur full stack et fondateur de Fynex" src="assets/banner-light.svg" width="100%">
+</picture>
 
 <p align="center">
   <a href="https://louisl.me">louisl.me</a> ·
+  <a href="https://fynexapp.com">fynexapp.com</a> ·
   <a href="https://linkedin.com/in/louis-langanay">LinkedIn</a> ·
-  <a href="https://twitter.com/louislanganay">Twitter</a>
+  <a href="https://x.com/louislanganay">X</a>
 </p>
 
----
+### En ce moment
 
-### Ce sur quoi je travaille
+**[Fynex](https://fynexapp.com)**, l'outil de suivi des investisseurs qui gèrent eux-mêmes leurs actions : portefeuille consolidé, dividendes, fiche de chaque titre, analyse par IA. Je le construis avec une petite équipe, en React, NestJS et PostgreSQL.
 
-**[Fynex](https://fynexapp.com)** — Application d'investissement intelligente pour les particuliers. React · NestJS · Supabase · TwelveData API.
+Je code aujourd'hui surtout en pilotant des agents (Claude Code) : moins de temps à taper, plus à décider quoi construire et à relire ce qui part en production.
 
----
+### Projets
+
+| | |
+|---|---|
+| **[drop](https://github.com/LouisLanganay/drop)**<br>Les lampes Hue suivent la musique en temps réel, depuis le micro du téléphone : tempo, montées, drops.<br><sub>Kotlin · Android · DTLS · traitement du signal</sub> | **[claude-gmail-channel](https://github.com/LouisLanganay/claude-gmail-channel)**<br>Plugin Claude Code qui fait arriver chaque nouvel email dans une session en cours.<br><sub>TypeScript · MCP · Bun</sub> |
+| **[commit-ai-generator](https://github.com/LouisLanganay/commit-ai-generator)**<br>Extension VS Code qui rédige le message de commit à partir du diff.<br><sub>TypeScript · VS Code API · OpenAI</sub> | **[AREA](https://github.com/LouisLanganay/AREA)**<br>Automatisations entre services, façon Zapier, avec éditeur de workflows.<br><sub>TypeScript · NestJS · React · projet d'équipe</sub> |
+| **[Zombie Quarter Rampage](https://github.com/LouisLanganay/Zombie-Quarter-Rampage-my_rpg)**<br>RPG en C inspiré de la série U4 et de The Last of Us.<br><sub>C · CSFML</sub> | **[Raytracer](https://github.com/LouisLanganay/Raytracer)**<br>Moteur de rendu par lancer de rayons. Your CPU goes brrrrr.<br><sub>C++</sub> |
 
 ### Stack
 
-**Langages**  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**  
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**Backend & BDD**  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Outils**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-
----
-
-### Temps de code
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 02 November 2022 - To: 03 October 2026
-
-Total Time: 2,549 hrs 44 mins
-
-TypeScript        760 hrs 55 mins       ███████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   29.84 %
-C                 489 hrs 14 mins       █████▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   19.19 %
-JavaScript        348 hrs 21 mins       ███▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   13.66 %
-C++               247 hrs 43 mins       ██▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   09.72 %
-Python            118 hrs 46 mins       █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   04.66 %
-JSON              96 hrs 36 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.79 %
-HTML              77 hrs 27 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   03.04 %
-Other             55 hrs 23 mins        █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.17 %
-Markdown          54 hrs 8 mins         █▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   02.12 %
-PHP               42 hrs 18 mins        ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   01.66 %
-```
-
-<!--END_SECTION:waka-->
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nestjs,nodejs,postgres,prisma,supabase,redis,docker,python,kotlin,c,cpp,figma&perline=16" alt="TypeScript, React, Next.js, Tailwind, NestJS, Node.js, PostgreSQL, Prisma, Supabase, Redis, Docker, Python, Kotlin, C, C++, Figma">
+</p>
