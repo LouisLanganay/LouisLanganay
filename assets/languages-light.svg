@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="432" viewBox="0 0 1200 432" role="img" aria-label="Langages des dépôts publics, part en octets : TypeScript 38,1 %, C 27,3 %, C++ 9,5 %, Kotlin 9,4 %, JavaScript 3,8 %, Python 3,4 %, Autres 8,5 %">
-<title>Langages des dépôts publics, part en octets : TypeScript 38,1 %, C 27,3 %, C++ 9,5 %, Kotlin 9,4 %, JavaScript 3,8 %, Python 3,4 %, Autres 8,5 %</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="432" viewBox="0 0 1200 432" role="img" aria-label="Langages des dépôts publics, part en octets : TypeScript 37,6 %, C 27,0 %, C++ 9,4 %, Kotlin 9,2 %, Python 4,7 %, JavaScript 3,7 %, Autres 8,4 %">
+<title>Langages des dépôts publics, part en octets : TypeScript 37,6 %, C 27,0 %, C++ 9,4 %, Kotlin 9,2 %, Python 4,7 %, JavaScript 3,7 %, Autres 8,4 %</title>
 <rect width="1200" height="432" rx="18" fill="#f6f7f9"/>
 <text x="48.0" y="62.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" fill="#14161a" font-weight="700">Langages</text>
 <text x="48.0" y="90.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#5d6470">Part en octets, 20 dépôts publics non forkés</text>
 <text x="184.0" y="141.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">TypeScript</text>
-<path d="M200.0,128.0 L996.9,128.0 Q1000.9,128.0 1000.9,132.0 L1000.9,140.0 Q1000.9,144.0 996.9,144.0 L200.0,144.0 Z" fill="#1f9d6b"><title>TypeScript : 38,1 %</title></path>
-<text x="1010.9" y="141.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">38,1 %</text>
+<path d="M200.0,128.0 L985.5,128.0 Q989.5,128.0 989.5,132.0 L989.5,140.0 Q989.5,144.0 985.5,144.0 L200.0,144.0 Z" fill="#1f9d6b"><title>TypeScript : 37,6 %</title></path>
+<text x="999.5" y="141.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">37,6 %</text>
 <text x="184.0" y="177.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">C</text>
-<path d="M200.0,164.0 L770.3,164.0 Q774.3,164.0 774.3,168.0 L774.3,176.0 Q774.3,180.0 770.3,180.0 L200.0,180.0 Z" fill="#1f9d6b"><title>C : 27,3 %</title></path>
-<text x="784.3" y="177.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">27,3 %</text>
+<path d="M200.0,164.0 L762.1,164.0 Q766.1,164.0 766.1,168.0 L766.1,176.0 Q766.1,180.0 762.1,180.0 L200.0,180.0 Z" fill="#1f9d6b"><title>C : 27,0 %</title></path>
+<text x="776.1" y="177.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">27,0 %</text>
 <text x="184.0" y="213.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">C++</text>
-<path d="M200.0,200.0 L395.3,200.0 Q399.3,200.0 399.3,204.0 L399.3,212.0 Q399.3,216.0 395.3,216.0 L200.0,216.0 Z" fill="#1f9d6b"><title>C++ : 9,5 %</title></path>
-<text x="409.3" y="213.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">9,5 %</text>
+<path d="M200.0,200.0 L392.5,200.0 Q396.5,200.0 396.5,204.0 L396.5,212.0 Q396.5,216.0 392.5,216.0 L200.0,216.0 Z" fill="#1f9d6b"><title>C++ : 9,4 %</title></path>
+<text x="406.5" y="213.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">9,4 %</text>
 <text x="184.0" y="249.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">Kotlin</text>
-<path d="M200.0,236.0 L392.8,236.0 Q396.8,236.0 396.8,240.0 L396.8,248.0 Q396.8,252.0 392.8,252.0 L200.0,252.0 Z" fill="#1f9d6b"><title>Kotlin : 9,4 %</title></path>
-<text x="406.8" y="249.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">9,4 %</text>
-<text x="184.0" y="285.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">JavaScript</text>
-<path d="M200.0,272.0 L275.9,272.0 Q279.9,272.0 279.9,276.0 L279.9,284.0 Q279.9,288.0 275.9,288.0 L200.0,288.0 Z" fill="#1f9d6b"><title>JavaScript : 3,8 %</title></path>
-<text x="289.9" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">3,8 %</text>
-<text x="184.0" y="321.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">Python</text>
-<path d="M200.0,308.0 L267.1,308.0 Q271.1,308.0 271.1,312.0 L271.1,320.0 Q271.1,324.0 267.1,324.0 L200.0,324.0 Z" fill="#1f9d6b"><title>Python : 3,4 %</title></path>
-<text x="281.1" y="321.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">3,4 %</text>
+<path d="M200.0,236.0 L390.0,236.0 Q394.0,236.0 394.0,240.0 L394.0,248.0 Q394.0,252.0 390.0,252.0 L200.0,252.0 Z" fill="#1f9d6b"><title>Kotlin : 9,2 %</title></path>
+<text x="404.0" y="249.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">9,2 %</text>
+<text x="184.0" y="285.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">Python</text>
+<path d="M200.0,272.0 L294.9,272.0 Q298.9,272.0 298.9,276.0 L298.9,284.0 Q298.9,288.0 294.9,288.0 L200.0,288.0 Z" fill="#1f9d6b"><title>Python : 4,7 %</title></path>
+<text x="308.9" y="285.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">4,7 %</text>
+<text x="184.0" y="321.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#14161a" text-anchor="end">JavaScript</text>
+<path d="M200.0,308.0 L274.7,308.0 Q278.7,308.0 278.7,312.0 L278.7,320.0 Q278.7,324.0 274.7,324.0 L200.0,324.0 Z" fill="#1f9d6b"><title>JavaScript : 3,7 %</title></path>
+<text x="288.7" y="321.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">3,7 %</text>
 <text x="184.0" y="357.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#5d6470" text-anchor="end">Autres</text>
-<path d="M200.0,344.0 L373.7,344.0 Q377.7,344.0 377.7,348.0 L377.7,356.0 Q377.7,360.0 373.7,360.0 L200.0,360.0 Z" fill="#9aa1ad"><title>Autres : 8,5 %</title></path>
-<text x="387.7" y="357.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">8,5 %</text>
+<path d="M200.0,344.0 L372.2,344.0 Q376.2,344.0 376.2,348.0 L376.2,356.0 Q376.2,360.0 372.2,360.0 L200.0,360.0 Z" fill="#9aa1ad"><title>Autres : 8,4 %</title></path>
+<text x="386.2" y="357.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14161a">8,4 %</text>
 <line x1="200" x2="200" y1="120" y2="368" stroke="#dfe2e7" stroke-width="1"/>
 <text x="48.0" y="404.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" letter-spacing="1">MIS À JOUR CHAQUE MOIS PAR GITHUB ACTIONS</text>
 </svg>
