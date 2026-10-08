@@ -12,7 +12,7 @@
 
 ### En ce moment
 
-**[Fynex](https://fynexapp.com)** · le suivi de portefeuille des investisseurs actifs
+**[Fynex](https://fynexapp.com)** · le suivi de portefeuille des investisseurs actifs<br>
 **[Nightshift](https://nightshift.louisl.me)** · un coéquipier IA qui fait tourner ton projet la nuit
 
 ### En chiffres
