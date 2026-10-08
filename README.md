@@ -16,6 +16,33 @@
 
 Je code aujourd'hui surtout en pilotant des agents (Claude Code) : moins de temps à taper, plus à décider quoi construire et à relire ce qui part en production.
 
+### Nightshift
+
+**[Nightshift](https://nightshift.louisl.me)**, un coéquipier IA autonome qui gère les opérations d'un projet pendant la nuit : il exécute les tâches en file, tient le board à jour, relit les pull requests et envoie un rapport chaque matin.
+
+Il est né de mon propre assistant, qui tourne chaque nuit sur le projet Fynex. J'en ai fait un produit pour les équipes qui veulent la même chose.
+
+### En chiffres
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Chiffres clés du profil GitHub" src="assets/stats-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img alt="Contributions GitHub par mois sur les 12 derniers mois" src="assets/activity-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img alt="Langages des dépôts publics, part en octets" src="assets/languages-light.svg" width="49%">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wakatime-dark.svg">
+  <img alt="Historique WakaTime figé au 03/10/2026" src="assets/wakatime-light.svg" width="49%">
+</picture>
+
 ### Projets
 
 | | |
