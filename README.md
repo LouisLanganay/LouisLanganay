@@ -49,10 +49,6 @@
   <img alt="Heatmap des messages de Claude par jour et par heure" src="assets/claude-heatmap-light.svg" width="100%">
 </picture>
 
-### API
-
-[`stats.json`](https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/stats.json) · [`claude-stats.json`](https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/claude-stats.json)
-
 ### Projets
 
 | | |
