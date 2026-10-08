@@ -12,15 +12,8 @@
 
 ### En ce moment
 
-**[Fynex](https://fynexapp.com)**, l'outil de suivi des investisseurs qui gèrent eux-mêmes leurs actions : portefeuille consolidé, dividendes, fiche de chaque titre, analyse par IA. Je le construis avec une petite équipe, en React, NestJS et PostgreSQL.
-
-Je code aujourd'hui surtout en pilotant des agents (Claude Code) : moins de temps à taper, plus à décider quoi construire et à relire ce qui part en production.
-
-### Nightshift
-
-**[Nightshift](https://nightshift.louisl.me)**, un coéquipier IA autonome qui gère les opérations d'un projet pendant la nuit : il exécute les tâches en file, tient le board à jour, relit les pull requests et envoie un rapport chaque matin.
-
-Il est né de mon propre assistant, qui tourne chaque nuit sur le projet Fynex. J'en ai fait un produit pour les équipes qui veulent la même chose.
+**[Fynex](https://fynexapp.com)** · le suivi de portefeuille des investisseurs actifs
+**[Nightshift](https://nightshift.louisl.me)** · un coéquipier IA qui fait tourner ton projet la nuit
 
 ### En chiffres
 
@@ -41,8 +34,6 @@ Il est né de mon propre assistant, qui tourne chaque nuit sur le projet Fynex. 
 
 ### Avec Claude
 
-Je code surtout en pilotant Claude Code, et mon assistant tourne aussi seul la nuit. Ces chiffres sortent des transcripts de mon serveur : agents et sous-agents compris, sessions sur mon Mac non comptées.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/claude-key-dark.svg">
   <img alt="Chiffres clés de mon utilisation de Claude Code" src="assets/claude-key-light.svg" width="100%">
@@ -58,17 +49,9 @@ Je code surtout en pilotant Claude Code, et mon assistant tourne aussi seul la n
   <img alt="Heatmap des messages de Claude par jour et par heure" src="assets/claude-heatmap-light.svg" width="100%">
 </picture>
 
-### Mes stats en JSON
+### API
 
-Les mêmes chiffres, régénérés chaque mois, sont servis en JSON (CORS ouvert) :
-
-```sh
-curl -s https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/stats.json
-curl -s https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/claude-stats.json
-```
-
-- `stats.json` (`schema_version: 1`, GitHub Actions) : `generated_at` (ISO 8601, UTC), `profile`, `totals` (dépôts publics, étoiles, contributions sur 12 mois), `contributions` (12 derniers mois complets, total public et privé par mois), `languages` (part en octets des dépôts publics non forkés), `featured_repos` (nom, description, étoiles, langage). Les contributions privées ne sont que les comptes agrégés déjà visibles sur le profil, aucun dépôt privé n'est nommé.
-- `claude-stats.json` (`schema_version: 1`, calculé sur mon serveur) : `generated_at`, `period`, `totals` (jetons par type, messages, sessions, sous-agents, part des sous-agents), `months` (jetons, messages, sessions et sous-agents par mois), `heatmap` (messages par jour et par heure, heure de Paris), `models`. Que des agrégats : aucun contenu, projet ni session.
+[`stats.json`](https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/stats.json) · [`claude-stats.json`](https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/claude-stats.json)
 
 ### Projets
 
