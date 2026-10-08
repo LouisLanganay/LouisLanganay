@@ -39,15 +39,36 @@ Il est né de mon propre assistant, qui tourne chaque nuit sur le projet Fynex. 
   <img alt="Langages des dépôts publics, part en octets" src="assets/languages-light.svg" width="100%">
 </picture>
 
-#### Mes stats en JSON
+### Avec Claude
+
+Je code surtout en pilotant Claude Code, et mon assistant tourne aussi seul la nuit. Ces chiffres sortent des transcripts de mon serveur : agents et sous-agents compris, sessions sur mon Mac non comptées.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/claude-key-dark.svg">
+  <img alt="Chiffres clés de mon utilisation de Claude Code" src="assets/claude-key-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/claude-tokens-dark.svg">
+  <img alt="Jetons Claude par mois, par type" src="assets/claude-tokens-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/claude-heatmap-dark.svg">
+  <img alt="Heatmap des messages de Claude par jour et par heure" src="assets/claude-heatmap-light.svg" width="100%">
+</picture>
+
+### Mes stats en JSON
 
 Les mêmes chiffres, régénérés chaque mois, sont servis en JSON (CORS ouvert) :
 
 ```sh
 curl -s https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/stats.json
+curl -s https://raw.githubusercontent.com/LouisLanganay/LouisLanganay/main/claude-stats.json
 ```
 
-Schéma `schema_version: 1` : `generated_at` (ISO 8601, UTC), `profile`, `totals` (dépôts publics, étoiles, contributions sur 12 mois), `contributions` (12 derniers mois complets, total public et privé par mois), `languages` (part en octets des dépôts publics non forkés), `featured_repos` (nom, description, étoiles, langage). Les contributions privées ne sont que les comptes agrégés déjà visibles sur le profil, aucun dépôt privé n'est nommé.
+- `stats.json` (`schema_version: 1`, GitHub Actions) : `generated_at` (ISO 8601, UTC), `profile`, `totals` (dépôts publics, étoiles, contributions sur 12 mois), `contributions` (12 derniers mois complets, total public et privé par mois), `languages` (part en octets des dépôts publics non forkés), `featured_repos` (nom, description, étoiles, langage). Les contributions privées ne sont que les comptes agrégés déjà visibles sur le profil, aucun dépôt privé n'est nommé.
+- `claude-stats.json` (`schema_version: 1`, calculé sur mon serveur) : `generated_at`, `period`, `totals` (jetons par type, messages, sessions, sous-agents, part des sous-agents), `months` (jetons, messages, sessions et sous-agents par mois), `heatmap` (messages par jour et par heure, heure de Paris), `models`. Que des agrégats : aucun contenu, projet ni session.
 
 ### Projets
 

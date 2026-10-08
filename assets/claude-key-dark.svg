@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" role="img" aria-label="Claude Code sur mon serveur, agents compris : 20,4 Md jetons au total, 56,3 M jetons écrits par claude, 156 sessions, 48 % messages de sous-agents">
+<title>Claude Code sur mon serveur, agents compris : 20,4 Md jetons au total, 56,3 M jetons écrits par claude, 156 sessions, 48 % messages de sous-agents</title>
+<rect width="1200" height="196" rx="18" fill="#0f1115"/>
+<text x="48.0" y="50.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#9aa1ad">Claude Code sur mon serveur, agents compris, hors Mac. Depuis le 22/08/2026.</text>
+<text x="48.0" y="128.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#f2f3f5" font-weight="700" letter-spacing="-1">20,4 Md</text>
+<text x="50.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" letter-spacing="1">JETONS AU TOTAL</text>
+<line x1="300.0" x2="300.0" y1="80" y2="158" stroke="#262a31" stroke-width="1"/>
+<text x="348.0" y="128.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#f2f3f5" font-weight="700" letter-spacing="-1">56,3 M</text>
+<text x="350.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" letter-spacing="1">JETONS ÉCRITS PAR CLAUDE</text>
+<line x1="600.0" x2="600.0" y1="80" y2="158" stroke="#262a31" stroke-width="1"/>
+<text x="648.0" y="128.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#f2f3f5" font-weight="700" letter-spacing="-1">156</text>
+<text x="650.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" letter-spacing="1">SESSIONS</text>
+<line x1="900.0" x2="900.0" y1="80" y2="158" stroke="#262a31" stroke-width="1"/>
+<text x="948.0" y="128.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" fill="#f2f3f5" font-weight="700" letter-spacing="-1">48 %</text>
+<text x="950.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9aa1ad" letter-spacing="1">MESSAGES DE SOUS-AGENTS</text>
+</svg>

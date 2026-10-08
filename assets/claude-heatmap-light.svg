@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="518" viewBox="0 0 1200 518" role="img" aria-label="Heatmap des messages de Claude par jour de la semaine et heure (Paris). Heures les plus actives : 5 h, 16 h, 14 h">
+<title>Heatmap des messages de Claude par jour de la semaine et heure (Paris). Heures les plus actives : 5 h, 16 h, 14 h</title>
+<rect width="1200" height="518" rx="18" fill="#f6f7f9"/>
+<text x="48.0" y="62.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" fill="#14161a" font-weight="700">Quand je travaille avec Claude</text>
+<text x="48.0" y="90.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#5d6470">Messages de Claude par jour et par heure (heure de Paris), agents compris</text>
+<text x="96.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">lun.</text>
+<rect x="112" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 0 h : 653 messages</title></rect>
+<rect x="154" y="132" width="38" height="38" rx="4" fill="#3fa87c"><title>lun. 1 h : 159 messages</title></rect>
+<rect x="196" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 2 h : 345 messages</title></rect>
+<rect x="238" y="132" width="38" height="38" rx="4" fill="#66bf9a"><title>lun. 3 h : 45 messages</title></rect>
+<rect x="280" y="132" width="38" height="38" rx="4" fill="#e6e8ec"><title>lun. 4 h : 0 messages</title></rect>
+<rect x="322" y="132" width="38" height="38" rx="4" fill="#114f38"><title>lun. 5 h : 1 155 messages</title></rect>
+<rect x="364" y="132" width="38" height="38" rx="4" fill="#66bf9a"><title>lun. 6 h : 34 messages</title></rect>
+<rect x="406" y="132" width="38" height="38" rx="4" fill="#3fa87c"><title>lun. 7 h : 114 messages</title></rect>
+<rect x="448" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 8 h : 282 messages</title></rect>
+<rect x="490" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 9 h : 309 messages</title></rect>
+<rect x="532" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 10 h : 493 messages</title></rect>
+<rect x="574" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 11 h : 235 messages</title></rect>
+<rect x="616" y="132" width="38" height="38" rx="4" fill="#3fa87c"><title>lun. 12 h : 208 messages</title></rect>
+<rect x="658" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 13 h : 290 messages</title></rect>
+<rect x="700" y="132" width="38" height="38" rx="4" fill="#114f38"><title>lun. 14 h : 969 messages</title></rect>
+<rect x="742" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 15 h : 594 messages</title></rect>
+<rect x="784" y="132" width="38" height="38" rx="4" fill="#114f38"><title>lun. 16 h : 874 messages</title></rect>
+<rect x="826" y="132" width="38" height="38" rx="4" fill="#114f38"><title>lun. 17 h : 773 messages</title></rect>
+<rect x="868" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 18 h : 580 messages</title></rect>
+<rect x="910" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 19 h : 510 messages</title></rect>
+<rect x="952" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 20 h : 307 messages</title></rect>
+<rect x="994" y="132" width="38" height="38" rx="4" fill="#3fa87c"><title>lun. 21 h : 187 messages</title></rect>
+<rect x="1036" y="132" width="38" height="38" rx="4" fill="#1b6e4f"><title>lun. 22 h : 406 messages</title></rect>
+<rect x="1078" y="132" width="38" height="38" rx="4" fill="#288c65"><title>lun. 23 h : 394 messages</title></rect>
+<text x="96.0" y="198.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">mar.</text>
+<rect x="112" y="174" width="38" height="38" rx="4" fill="#1b6e4f"><title>mar. 0 h : 580 messages</title></rect>
+<rect x="154" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 1 h : 225 messages</title></rect>
+<rect x="196" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 2 h : 125 messages</title></rect>
+<rect x="238" y="174" width="38" height="38" rx="4" fill="#66bf9a"><title>mar. 3 h : 10 messages</title></rect>
+<rect x="280" y="174" width="38" height="38" rx="4" fill="#66bf9a"><title>mar. 4 h : 4 messages</title></rect>
+<rect x="322" y="174" width="38" height="38" rx="4" fill="#114f38"><title>mar. 5 h : 1 569 messages</title></rect>
+<rect x="364" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 6 h : 120 messages</title></rect>
+<rect x="406" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 7 h : 144 messages</title></rect>
+<rect x="448" y="174" width="38" height="38" rx="4" fill="#66bf9a"><title>mar. 8 h : 30 messages</title></rect>
+<rect x="490" y="174" width="38" height="38" rx="4" fill="#1b6e4f"><title>mar. 9 h : 601 messages</title></rect>
+<rect x="532" y="174" width="38" height="38" rx="4" fill="#114f38"><title>mar. 10 h : 747 messages</title></rect>
+<rect x="574" y="174" width="38" height="38" rx="4" fill="#1b6e4f"><title>mar. 11 h : 509 messages</title></rect>
+<rect x="616" y="174" width="38" height="38" rx="4" fill="#288c65"><title>mar. 12 h : 257 messages</title></rect>
+<rect x="658" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 13 h : 210 messages</title></rect>
+<rect x="700" y="174" width="38" height="38" rx="4" fill="#114f38"><title>mar. 14 h : 670 messages</title></rect>
+<rect x="742" y="174" width="38" height="38" rx="4" fill="#1b6e4f"><title>mar. 15 h : 503 messages</title></rect>
+<rect x="784" y="174" width="38" height="38" rx="4" fill="#114f38"><title>mar. 16 h : 1 596 messages</title></rect>
+<rect x="826" y="174" width="38" height="38" rx="4" fill="#114f38"><title>mar. 17 h : 746 messages</title></rect>
+<rect x="868" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 18 h : 210 messages</title></rect>
+<rect x="910" y="174" width="38" height="38" rx="4" fill="#288c65"><title>mar. 19 h : 367 messages</title></rect>
+<rect x="952" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 20 h : 157 messages</title></rect>
+<rect x="994" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 21 h : 168 messages</title></rect>
+<rect x="1036" y="174" width="38" height="38" rx="4" fill="#288c65"><title>mar. 22 h : 257 messages</title></rect>
+<rect x="1078" y="174" width="38" height="38" rx="4" fill="#3fa87c"><title>mar. 23 h : 221 messages</title></rect>
+<text x="96.0" y="240.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">mer.</text>
+<rect x="112" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 0 h : 290 messages</title></rect>
+<rect x="154" y="216" width="38" height="38" rx="4" fill="#66bf9a"><title>mer. 1 h : 17 messages</title></rect>
+<rect x="196" y="216" width="38" height="38" rx="4" fill="#66bf9a"><title>mer. 2 h : 35 messages</title></rect>
+<rect x="238" y="216" width="38" height="38" rx="4" fill="#3fa87c"><title>mer. 3 h : 165 messages</title></rect>
+<rect x="280" y="216" width="38" height="38" rx="4" fill="#66bf9a"><title>mer. 4 h : 73 messages</title></rect>
+<rect x="322" y="216" width="38" height="38" rx="4" fill="#114f38"><title>mer. 5 h : 1 051 messages</title></rect>
+<rect x="364" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 6 h : 293 messages</title></rect>
+<rect x="406" y="216" width="38" height="38" rx="4" fill="#3fa87c"><title>mer. 7 h : 106 messages</title></rect>
+<rect x="448" y="216" width="38" height="38" rx="4" fill="#66bf9a"><title>mer. 8 h : 47 messages</title></rect>
+<rect x="490" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 9 h : 509 messages</title></rect>
+<rect x="532" y="216" width="38" height="38" rx="4" fill="#114f38"><title>mer. 10 h : 807 messages</title></rect>
+<rect x="574" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 11 h : 641 messages</title></rect>
+<rect x="616" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 12 h : 255 messages</title></rect>
+<rect x="658" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 13 h : 568 messages</title></rect>
+<rect x="700" y="216" width="38" height="38" rx="4" fill="#114f38"><title>mer. 14 h : 782 messages</title></rect>
+<rect x="742" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 15 h : 647 messages</title></rect>
+<rect x="784" y="216" width="38" height="38" rx="4" fill="#114f38"><title>mer. 16 h : 943 messages</title></rect>
+<rect x="826" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 17 h : 422 messages</title></rect>
+<rect x="868" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 18 h : 537 messages</title></rect>
+<rect x="910" y="216" width="38" height="38" rx="4" fill="#1b6e4f"><title>mer. 19 h : 479 messages</title></rect>
+<rect x="952" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 20 h : 305 messages</title></rect>
+<rect x="994" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 21 h : 368 messages</title></rect>
+<rect x="1036" y="216" width="38" height="38" rx="4" fill="#114f38"><title>mer. 22 h : 1 447 messages</title></rect>
+<rect x="1078" y="216" width="38" height="38" rx="4" fill="#288c65"><title>mer. 23 h : 403 messages</title></rect>
+<text x="96.0" y="282.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">jeu.</text>
+<rect x="112" y="258" width="38" height="38" rx="4" fill="#1b6e4f"><title>jeu. 0 h : 659 messages</title></rect>
+<rect x="154" y="258" width="38" height="38" rx="4" fill="#3fa87c"><title>jeu. 1 h : 106 messages</title></rect>
+<rect x="196" y="258" width="38" height="38" rx="4" fill="#66bf9a"><title>jeu. 2 h : 68 messages</title></rect>
+<rect x="238" y="258" width="38" height="38" rx="4" fill="#66bf9a"><title>jeu. 3 h : 18 messages</title></rect>
+<rect x="280" y="258" width="38" height="38" rx="4" fill="#66bf9a"><title>jeu. 4 h : 32 messages</title></rect>
+<rect x="322" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 5 h : 1 309 messages</title></rect>
+<rect x="364" y="258" width="38" height="38" rx="4" fill="#66bf9a"><title>jeu. 6 h : 39 messages</title></rect>
+<rect x="406" y="258" width="38" height="38" rx="4" fill="#3fa87c"><title>jeu. 7 h : 137 messages</title></rect>
+<rect x="448" y="258" width="38" height="38" rx="4" fill="#66bf9a"><title>jeu. 8 h : 61 messages</title></rect>
+<rect x="490" y="258" width="38" height="38" rx="4" fill="#288c65"><title>jeu. 9 h : 400 messages</title></rect>
+<rect x="532" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 10 h : 1 806 messages</title></rect>
+<rect x="574" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 11 h : 1 719 messages</title></rect>
+<rect x="616" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 12 h : 1 035 messages</title></rect>
+<rect x="658" y="258" width="38" height="38" rx="4" fill="#1b6e4f"><title>jeu. 13 h : 622 messages</title></rect>
+<rect x="700" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 14 h : 1 387 messages</title></rect>
+<rect x="742" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 15 h : 964 messages</title></rect>
+<rect x="784" y="258" width="38" height="38" rx="4" fill="#1b6e4f"><title>jeu. 16 h : 586 messages</title></rect>
+<rect x="826" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 17 h : 1 100 messages</title></rect>
+<rect x="868" y="258" width="38" height="38" rx="4" fill="#1b6e4f"><title>jeu. 18 h : 548 messages</title></rect>
+<rect x="910" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 19 h : 912 messages</title></rect>
+<rect x="952" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 20 h : 1 017 messages</title></rect>
+<rect x="994" y="258" width="38" height="38" rx="4" fill="#114f38"><title>jeu. 21 h : 845 messages</title></rect>
+<rect x="1036" y="258" width="38" height="38" rx="4" fill="#288c65"><title>jeu. 22 h : 242 messages</title></rect>
+<rect x="1078" y="258" width="38" height="38" rx="4" fill="#3fa87c"><title>jeu. 23 h : 231 messages</title></rect>
+<text x="96.0" y="324.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">ven.</text>
+<rect x="112" y="300" width="38" height="38" rx="4" fill="#1b6e4f"><title>ven. 0 h : 498 messages</title></rect>
+<rect x="154" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 1 h : 74 messages</title></rect>
+<rect x="196" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 2 h : 1 messages</title></rect>
+<rect x="238" y="300" width="38" height="38" rx="4" fill="#e6e8ec"><title>ven. 3 h : 0 messages</title></rect>
+<rect x="280" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 4 h : 23 messages</title></rect>
+<rect x="322" y="300" width="38" height="38" rx="4" fill="#114f38"><title>ven. 5 h : 1 237 messages</title></rect>
+<rect x="364" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 6 h : 96 messages</title></rect>
+<rect x="406" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 7 h : 134 messages</title></rect>
+<rect x="448" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 8 h : 3 messages</title></rect>
+<rect x="490" y="300" width="38" height="38" rx="4" fill="#288c65"><title>ven. 9 h : 279 messages</title></rect>
+<rect x="532" y="300" width="38" height="38" rx="4" fill="#288c65"><title>ven. 10 h : 269 messages</title></rect>
+<rect x="574" y="300" width="38" height="38" rx="4" fill="#1b6e4f"><title>ven. 11 h : 408 messages</title></rect>
+<rect x="616" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 12 h : 229 messages</title></rect>
+<rect x="658" y="300" width="38" height="38" rx="4" fill="#288c65"><title>ven. 13 h : 269 messages</title></rect>
+<rect x="700" y="300" width="38" height="38" rx="4" fill="#114f38"><title>ven. 14 h : 855 messages</title></rect>
+<rect x="742" y="300" width="38" height="38" rx="4" fill="#1b6e4f"><title>ven. 15 h : 633 messages</title></rect>
+<rect x="784" y="300" width="38" height="38" rx="4" fill="#114f38"><title>ven. 16 h : 663 messages</title></rect>
+<rect x="826" y="300" width="38" height="38" rx="4" fill="#1b6e4f"><title>ven. 17 h : 567 messages</title></rect>
+<rect x="868" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 18 h : 178 messages</title></rect>
+<rect x="910" y="300" width="38" height="38" rx="4" fill="#288c65"><title>ven. 19 h : 287 messages</title></rect>
+<rect x="952" y="300" width="38" height="38" rx="4" fill="#66bf9a"><title>ven. 20 h : 92 messages</title></rect>
+<rect x="994" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 21 h : 201 messages</title></rect>
+<rect x="1036" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 22 h : 139 messages</title></rect>
+<rect x="1078" y="300" width="38" height="38" rx="4" fill="#3fa87c"><title>ven. 23 h : 153 messages</title></rect>
+<text x="96.0" y="366.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">sam.</text>
+<rect x="112" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 0 h : 237 messages</title></rect>
+<rect x="154" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 1 h : 352 messages</title></rect>
+<rect x="196" y="342" width="38" height="38" rx="4" fill="#1b6e4f"><title>sam. 2 h : 463 messages</title></rect>
+<rect x="238" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 3 h : 253 messages</title></rect>
+<rect x="280" y="342" width="38" height="38" rx="4" fill="#3fa87c"><title>sam. 4 h : 99 messages</title></rect>
+<rect x="322" y="342" width="38" height="38" rx="4" fill="#114f38"><title>sam. 5 h : 997 messages</title></rect>
+<rect x="364" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 6 h : 8 messages</title></rect>
+<rect x="406" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 7 h : 91 messages</title></rect>
+<rect x="448" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 8 h : 19 messages</title></rect>
+<rect x="490" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 9 h : 22 messages</title></rect>
+<rect x="532" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 10 h : 48 messages</title></rect>
+<rect x="574" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 11 h : 25 messages</title></rect>
+<rect x="616" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 12 h : 43 messages</title></rect>
+<rect x="658" y="342" width="38" height="38" rx="4" fill="#66bf9a"><title>sam. 13 h : 38 messages</title></rect>
+<rect x="700" y="342" width="38" height="38" rx="4" fill="#3fa87c"><title>sam. 14 h : 190 messages</title></rect>
+<rect x="742" y="342" width="38" height="38" rx="4" fill="#1b6e4f"><title>sam. 15 h : 541 messages</title></rect>
+<rect x="784" y="342" width="38" height="38" rx="4" fill="#1b6e4f"><title>sam. 16 h : 566 messages</title></rect>
+<rect x="826" y="342" width="38" height="38" rx="4" fill="#3fa87c"><title>sam. 17 h : 172 messages</title></rect>
+<rect x="868" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 18 h : 285 messages</title></rect>
+<rect x="910" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 19 h : 287 messages</title></rect>
+<rect x="952" y="342" width="38" height="38" rx="4" fill="#114f38"><title>sam. 20 h : 1 082 messages</title></rect>
+<rect x="994" y="342" width="38" height="38" rx="4" fill="#1b6e4f"><title>sam. 21 h : 603 messages</title></rect>
+<rect x="1036" y="342" width="38" height="38" rx="4" fill="#1b6e4f"><title>sam. 22 h : 447 messages</title></rect>
+<rect x="1078" y="342" width="38" height="38" rx="4" fill="#288c65"><title>sam. 23 h : 243 messages</title></rect>
+<text x="96.0" y="408.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5d6470" text-anchor="end">dim.</text>
+<rect x="112" y="384" width="38" height="38" rx="4" fill="#1b6e4f"><title>dim. 0 h : 501 messages</title></rect>
+<rect x="154" y="384" width="38" height="38" rx="4" fill="#288c65"><title>dim. 1 h : 328 messages</title></rect>
+<rect x="196" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 2 h : 164 messages</title></rect>
+<rect x="238" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 3 h : 206 messages</title></rect>
+<rect x="280" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 4 h : 5 messages</title></rect>
+<rect x="322" y="384" width="38" height="38" rx="4" fill="#114f38"><title>dim. 5 h : 1 047 messages</title></rect>
+<rect x="364" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 6 h : 122 messages</title></rect>
+<rect x="406" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 7 h : 116 messages</title></rect>
+<rect x="448" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 8 h : 61 messages</title></rect>
+<rect x="490" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 9 h : 6 messages</title></rect>
+<rect x="532" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 10 h : 1 messages</title></rect>
+<rect x="574" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 11 h : 12 messages</title></rect>
+<rect x="616" y="384" width="38" height="38" rx="4" fill="#66bf9a"><title>dim. 12 h : 70 messages</title></rect>
+<rect x="658" y="384" width="38" height="38" rx="4" fill="#288c65"><title>dim. 13 h : 307 messages</title></rect>
+<rect x="700" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 14 h : 175 messages</title></rect>
+<rect x="742" y="384" width="38" height="38" rx="4" fill="#3fa87c"><title>dim. 15 h : 141 messages</title></rect>
+<rect x="784" y="384" width="38" height="38" rx="4" fill="#114f38"><title>dim. 16 h : 777 messages</title></rect>
+<rect x="826" y="384" width="38" height="38" rx="4" fill="#114f38"><title>dim. 17 h : 690 messages</title></rect>
+<rect x="868" y="384" width="38" height="38" rx="4" fill="#288c65"><title>dim. 18 h : 385 messages</title></rect>
+<rect x="910" y="384" width="38" height="38" rx="4" fill="#288c65"><title>dim. 19 h : 327 messages</title></rect>
+<rect x="952" y="384" width="38" height="38" rx="4" fill="#114f38"><title>dim. 20 h : 675 messages</title></rect>
+<rect x="994" y="384" width="38" height="38" rx="4" fill="#1b6e4f"><title>dim. 21 h : 535 messages</title></rect>
+<rect x="1036" y="384" width="38" height="38" rx="4" fill="#1b6e4f"><title>dim. 22 h : 406 messages</title></rect>
+<rect x="1078" y="384" width="38" height="38" rx="4" fill="#288c65"><title>dim. 23 h : 238 messages</title></rect>
+<text x="131.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">0 h</text>
+<text x="257.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">3 h</text>
+<text x="383.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">6 h</text>
+<text x="509.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">9 h</text>
+<text x="635.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">12 h</text>
+<text x="761.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">15 h</text>
+<text x="887.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">18 h</text>
+<text x="1013.0" y="440.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="middle">21 h</text>
+<text x="112.0" y="487.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470">moins</text>
+<rect x="168" y="474" width="18" height="18" rx="3" fill="#e6e8ec"/>
+<rect x="190" y="474" width="18" height="18" rx="3" fill="#66bf9a"/>
+<rect x="212" y="474" width="18" height="18" rx="3" fill="#3fa87c"/>
+<rect x="234" y="474" width="18" height="18" rx="3" fill="#288c65"/>
+<rect x="256" y="474" width="18" height="18" rx="3" fill="#1b6e4f"/>
+<rect x="278" y="474" width="18" height="18" rx="3" fill="#114f38"/>
+<text x="306.0" y="487.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470">plus</text>
+<text x="1116.0" y="487.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#5d6470" text-anchor="end" letter-spacing="1">HEURES LES PLUS ACTIVES : 5 H, 16 H, 14 H</text>
+</svg>
