@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T12:50:19Z",
+  "generated_at": "2026-11-01T10:28:16Z",
   "profile": {
     "login": "LouisLanganay",
     "name": "LouisL",
@@ -9,24 +9,18 @@
     "years_on_github": 4
   },
   "totals": {
-    "public_repos": 22,
-    "original_public_repos": 20,
+    "public_repos": 23,
+    "original_public_repos": 21,
     "stars": 40,
-    "contributions_last_12_months": 4085
+    "contributions_last_12_months": 5832
   },
   "contributions": {
-    "from": "2025-10-01",
-    "to": "2026-09-30",
-    "total": 4085,
-    "public": 64,
-    "private": 4021,
+    "from": "2025-11-01",
+    "to": "2026-10-31",
+    "total": 5832,
+    "public": 147,
+    "private": 5685,
     "months": [
-      {
-        "month": "2025-10",
-        "total": 135,
-        "public": 13,
-        "private": 122
-      },
       {
         "month": "2025-11",
         "total": 20,
@@ -89,9 +83,15 @@
       },
       {
         "month": "2026-09",
-        "total": 1223,
+        "total": 1339,
         "public": 5,
-        "private": 1218
+        "private": 1334
+      },
+      {
+        "month": "2026-10",
+        "total": 1766,
+        "public": 96,
+        "private": 1670
       }
     ]
   },
@@ -100,31 +100,31 @@
     "items": [
       {
         "name": "TypeScript",
-        "percent": 37.6
+        "percent": 42.2
       },
       {
         "name": "C",
-        "percent": 27.0
+        "percent": 24.9
       },
       {
         "name": "C++",
-        "percent": 9.4
+        "percent": 8.6
       },
       {
         "name": "Kotlin",
-        "percent": 9.2
+        "percent": 8.5
       },
       {
         "name": "Python",
-        "percent": 4.7
+        "percent": 4.4
       },
       {
         "name": "JavaScript",
-        "percent": 3.7
+        "percent": 3.5
       },
       {
         "name": "Other",
-        "percent": 8.4
+        "percent": 7.8
       }
     ]
   },
